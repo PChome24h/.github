@@ -12,46 +12,43 @@
 
 <!-- 只留下符合的項目即可 -->
 
- - [ ] Bug fix (non-breaking change which fixes an issue)
- - [ ] New feature (non-breaking change which adds functionality)
- - [ ] Breaking change (fix or feature that would cause existing functionality to not work as expected)
- - [ ] This change requires a documentation update
+ - [ ] Bug fix (單純只改動某個小 bug，不變更既有系統運作)
+ - [ ] 新功能 (單純添加功能，不變更既有系統運作)
+ - [ ] 變更既有功能 (可能改變既有系統正常運作方式)
+ - [ ] 此異動需要連帶變更產品文件或技術文件
 
 
 
 # 如何審閱與測試？
 
 請告訴 code reviewer 如何 **重現** 你已經做過的自動或手動測試。
-<!-- Please describe the tests that you ran to verify your changes. Provide instructions so we can reproduce. Please also list any relevant details for your test configuration -->
 
  - [ ] Test A
  - [ ] Test B
 
 
-**Test Configuration**:
- - Platform:
- - Toolchain:
+**測試環境**:
+ - 平台:
+ - 工具:
 
 
 # Checklist
 
 提交 PR 前，請先檢查以下是否已完成：
 
- - [ ] 該分支是從最新 `master` 切出來 (如果不是，請先 rebase/merge 它)？
- - [ ] 是否新增測試，或被現有的測試覆蓋？
- - [ ] 這支 PR 是否有明確的標題、內容描述？
- - [ ] My code follows the style guidelines of this project
- - [ ] I have performed a self-review of my code
- - [ ] I have commented my code, particularly in hard-to-understand areas
- - [ ] I have made corresponding changes to the documentation
- - [ ] My changes generate no new warnings
- - [ ] I have added tests that prove my fix is effective or that my feature works
- - [ ] New and existing unit tests pass locally with my changes
+ - [ ] 該分支是從最新 `master` 切出來 (如果不是，請先 rebase/merge 它)
+ - [ ] 這支 PR 有明確的標題、內容描述
+ - [ ] 這支 PR 有遵守 coding guideline
+ - [ ] 我已做了充份的自我檢查
+ - [ ] 我已加上適量的註解，尤其是在難以理解的部份
+ - [ ] 我已經更新相關的文件
+ - [ ] 我的程式不會產生任何 warnings
+ - [ ] 我已經附上對應的測試，證明我真的修復了 bug，或是正確地實作出新功能
+ - [ ] 在我的電腦上，已通過新的及既有的測試
  - [ ] Any dependent changes have been merged and published in downstream modules
 
 
 
 # 補充說明
-
 
 
