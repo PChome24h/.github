@@ -4,7 +4,7 @@
 
 ## Asana link(s)
 
-<!-- 列出與這支 PR 有關聯的 Asana 卡片 -->
+<!-- 列出與這支 PR 有關聯的 Asana 卡片，以利雙向追溯 (traceability) -->
  - https://app.asana.com/xxx
  - https://app.asana.com/xxx
  - https://app.asana.com/xxx
@@ -25,8 +25,8 @@
 
 請告訴 code reviewer 如何 **重現** 你已經做過的自動或手動測試。
 
- - [ ] Test A (& steps)
- - [ ] Test B (& steps)
+ - [ ] Test 1 (& steps)
+ - [ ] Test 2 (& steps)
 
 
 **測試環境**:
