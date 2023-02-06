@@ -5,7 +5,9 @@
 ## Asana link(s)
 
 <!-- 列出與這支 PR 有關聯的 Asana 卡片 -->
- - [Asana 標題](https://app.asana.com/xxx)
+ - https://app.asana.com/xxx
+ - https://app.asana.com/xxx
+ - https://app.asana.com/xxx
 
 
 ## 異動類型
@@ -23,8 +25,8 @@
 
 請告訴 code reviewer 如何 **重現** 你已經做過的自動或手動測試。
 
- - [ ] Test A
- - [ ] Test B
+ - [ ] Test A (& steps)
+ - [ ] Test B (& steps)
 
 
 **測試環境**:
@@ -41,11 +43,11 @@
  - [ ] 這支 PR 有遵守 coding guideline
  - [ ] 我已做了充份的自我檢查
  - [ ] 我已加上適量的註解，尤其是在難以理解的部份
- - [ ] 我已經更新相關的文件
+ - [ ] 我已經更新相關的文件 (& 條列出來)
  - [ ] 我的程式不會產生任何 warnings
  - [ ] 我已經附上對應的測試，證明我真的修復了 bug，或是正確地實作出新功能
  - [ ] 在我的電腦上，已通過新的及既有的測試
- - [ ] Any dependent changes have been merged and published in downstream modules
+ - [ ] 我已經測試過可能會被此異動影響的下游 repo/module/service (& 條列出來)
 
 
 
